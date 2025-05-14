@@ -1,6 +1,6 @@
 import Image from "next/image";
 import About from "@/components/about";
-import imag from '../../public/images/Frame.jpg';
+import imag from '../../public/images/imag.jpg' // adjust the path
 import left from '../../public/images/left.png';
 import Card from "@/components/card";
 
@@ -63,7 +63,7 @@ export default async function Home() {
 
 <section className="bg-white py-12 flex justify-center content-center gap-20">
   <div className="w-96">
-      <img src={left.src} />
+      <Image src={left.src}  />
   </div>
   <div className="space-y-6 w-md content-center align-middle">
     <h1 className="text-black font-bold text-4xl">
